@@ -1,0 +1,3 @@
+#!/bin/bash -v
+bashl pf500d5s0s1s2s3s4car_scv64b_50r_30i_50a_4u_8_subseq10_no_reinit_tulp.sh
+bashl pf500d5s0s1s2s3s4car_rscv64b_50r_30i_50a_4u_8_subseq10_tulp.sh

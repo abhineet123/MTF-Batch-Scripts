@@ -1,0 +1,4 @@
+#!/bin/bash -v
+bashl nn3kmn670_zncc_50r_30i_50a_4u_subseq10_tulp.sh
+bashl nn3kmn670_riu_50r_30i_50a_4u_subseq10_tulp.sh
+bashl nn3kmn670_spss_50r_30i_50a_4u_subseq10_tulp.sh

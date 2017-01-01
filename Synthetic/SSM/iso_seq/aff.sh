@@ -1,0 +1,4 @@
+#!/bin/bash -v
+bashl esmlmDJ_ncc_50r_30i_4u_6_iiw1_reset_to_init_syn_iso_s19_28_rbf_s9_noise_0_10.sh
+bashl iclm_ncc_50r_30i_4u_6_iiw1_reset_to_init_syn_iso_s19_28_rbf_s9_noise_0_10.sh
+bashl rkles_ncc_50r_30i_4u_6_iiw1_reset_to_init_syn_iso_s19_28_rbf_s9_noise_0_10.sh

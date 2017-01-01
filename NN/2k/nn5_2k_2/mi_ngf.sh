@@ -1,0 +1,3 @@
+#!/bin/bash -v
+bashl nn5kmn400s4s3s2s1s0_mi_24b_50r_30i_4u_subseq10_tulp.sh
+bashl nn5kmn400s4s3s2s1s0_ngf_50r_30i_50a_4u_subseq10_tulp.sh

@@ -1,0 +1,7 @@
+#!/bin/bash -v
+bashl fclm_ncc_50r_100i_4u_subseq10_tulp.sh
+bashl fclm_riu_50r_100i_4u_subseq10_tulp.sh
+bashl fclm_scv_50r_100i_4u_subseq10_tulp.sh
+bashl fclm_ssd_50r_100i_4u_subseq10_tulp.sh
+bashl fclm_ssim_50r_100i_4u_subseq10_tulp.sh
+bashl fclm_zncc_50r_100i_4u_subseq10_tulp.sh

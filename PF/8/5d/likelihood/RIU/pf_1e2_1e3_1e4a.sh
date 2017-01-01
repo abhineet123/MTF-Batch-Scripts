@@ -1,0 +1,4 @@
+#!/bin/bash -v
+bashl pf500d5s0s1s2s3s4car_riu_50r_30i_100a_8_4u_no_ss.sh
+bashl pf500d5s0s1s2s3s4car_riu_50r_30i_1000a_8_4u_no_ss.sh
+bashl pf500d5s0s1s2s3s4car_riu_50r_30i_10000a_8_4u_no_ss.sh

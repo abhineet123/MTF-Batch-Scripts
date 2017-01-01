@@ -1,0 +1,4 @@
+#!/bin/bash -v
+bashl cmt2_subseq10_tmtfineEIH_jaccard_mcd_no_preproc.sh
+bashl cmt3_subseq10_tmtfineEIH_jaccard_mcd_no_preproc.sh
+bashl cmt4_subseq10_tmtfineEIH_jaccard_mcd_no_preproc.sh

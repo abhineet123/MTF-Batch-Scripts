@@ -1,0 +1,5 @@
+#!/bin/bash -v
+bashl pf500s50arw_zncc_50r_30i_50a_4u_6_subseq10_tulp_no_ss.sh
+bashl pf500s50arw_ncc_50r_30i_50a_4u_6_subseq10_tulp_no_ss.sh
+bashl pf500s50arw_spss_50r_30i_1a_4u_6_subseq10_tulp_no_ss.sh
+bashl pf500s50arw_ssim_50r_30i_50a_4u_6_subseq10_tulp_no_ss.sh

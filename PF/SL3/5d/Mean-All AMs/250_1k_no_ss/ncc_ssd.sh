@@ -1,0 +1,5 @@
+#!/bin/bash -v
+bashl pf250d5s5s6s7s8s11car_ncc_50r_30i_50a_4u_sl3m_no_ss_tulp.sh
+bashl pf250d5s5s6s7s8s11car_ssd_50r_30i_5a_4u_sl3m_no_ss_tulp.sh
+bashl pf1kd5s5s6s7s8s11car_ncc_50r_30i_50a_4u_sl3m_no_ss_tulp.sh
+bashl pf1kd5s5s6s7s8s11car_ssd_50r_30i_5a_4u_sl3m_no_ss_tulp.sh

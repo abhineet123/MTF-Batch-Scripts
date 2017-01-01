@@ -1,0 +1,3 @@
+#!/bin/bash -v
+bashl dsstr12_subseq10_tmtfineEIH_jaccard_35_60_reinit.sh
+bashl dsstr13_subseq10_tmtfineEIH_jaccard_35_60_reinit.sh

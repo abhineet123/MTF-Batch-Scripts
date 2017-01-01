@@ -1,0 +1,3 @@
+#!/bin/bash -v
+bashl pf500d5s5s6s7s8s11car_scv_50r_30i_5a_4u_sl3m_subseq10_tulp.sh
+bashl pf500d5s5s6s7s8s11car_spss_50r_30i_1a_4u_sl3m_subseq10_tulp.sh

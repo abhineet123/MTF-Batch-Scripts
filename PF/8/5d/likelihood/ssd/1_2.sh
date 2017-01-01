@@ -1,0 +1,3 @@
+#!/bin/bash -v
+bashl pf500d5s0s1s2s3s4car_ssd_50r_30i_1a_4u_8_no_ss_tulp.sh
+bashl pf500d5s0s1s2s3s4car_ssd_50r_30i_2a_4u_8_no_ss_tulp.sh
