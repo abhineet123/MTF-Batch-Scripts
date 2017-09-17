@@ -1,0 +1,4 @@
+#!/bin/bash -v
+bashl grides10rLMS25p10Ki5t_mcriu_50r_30i_4u_subseq10_tup.sh
+bashl grides10rLMS25p10Ki5t_mcssd_50r_30i_4u_subseq10_tup.sh
+bashl grides10rLMS25p10Ki5t_mczncc_50r_30i_4u_subseq10_tup.sh

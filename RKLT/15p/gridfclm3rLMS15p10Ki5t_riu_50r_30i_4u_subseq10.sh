@@ -2,9 +2,9 @@
 # IC with SSD with 25r and SubSeq 5
 set -x
 DB_ROOT_PATH="/home/abhineet/Secondary/Datasets/"
-SETTINGS="mtf_sm grid mtf_ssm 8 mtf_res 50 mtf_ilm 0 res_from_size 0 enable_nt 1 max_iters 30 epsilon 1e-4 db_root_path $DB_ROOT_PATH write_tracking_data 1  overwrite_gt 0 show_tracking_error 1 tracking_err_type 0 reinit_with_new_obj 0 reinit_at_each_frame 0 reinit_gt_from_bin 1 reinit_frame_skip 5 reinit_err_thresh 20 use_opt_gt 0 pause_after_frame 0 show_cv_window 0 init_frame_id 0 start_frame_id 0 frame_gap 1 read_obj_from_gt 1 invalid_state_check 1 invalid_state_err_thresh 0 img_resize_factor 1"
+SETTINGS="mtf_sm grid mtf_ssm 8 mtf_res 50 mtf_ilm 0 res_from_size 0 enable_nt 1 max_iters 30 epsilon 1e-4 db_root_path $DB_ROOT_PATH write_tracking_data 1 pre_proc_type 1  overwrite_gt 0 show_tracking_error 1 tracking_err_type 0 reinit_with_new_obj 0 reinit_at_each_frame 0 reinit_gt_from_bin 1 reinit_frame_skip 5 reinit_err_thresh 20 use_opt_gt 0 pause_after_frame 0 show_cv_window 0 init_frame_id 0 start_frame_id 0 frame_gap 1 read_obj_from_gt 1 invalid_state_check 1 invalid_state_err_thresh 0 img_resize_factor 1"
 PYR_SETTINGS="pyr_no_of_levels 3 pyr_scale_factor 0.5 pyr_scale_res 1 pyr_show_levels 0"
-GRID_SETTINGS="grid_sm fc grid_am riu grid_ssm 2 grid_ilm 0 grid_res 3 grid_patch_size 15 grid_patch_res 0 grid_patch_centroid_inside 1 grid_dyn_patch_size 0 grid_reset_at_each_frame 1 grid_show_trackers 0 grid_show_tracker_edges 0 grid_use_tbb 0 grid_pyramid_levels 2 grid_use_min_eig_vals 0 grid_min_eig_thresh 1e-4"
+GRID_SETTINGS="grid_sm fc grid_am riu grid_ssm 2 grid_ilm 0 grid_res 3 grid_patch_size 15 grid_patch_res 0 grid_patch_centroid_inside 1 grid_fb_err_thresh 0 grid_fb_reinit 1 grid_dyn_patch_size 0 grid_reset_at_each_frame 1 grid_show_trackers 0 grid_show_tracker_edges 0 grid_use_tbb 0 grid_pyramid_levels 2 grid_use_min_eig_vals 0 grid_min_eig_thresh 1e-4"
 EST_SETTINGS="est_method 1 est_ransac_reproj_thresh 5 est_n_model_pts 4 est_max_iters 10000 est_max_subset_attempts 300 est_use_boost_rng 0 est_confidence 0.995 est_refine 1 est_lm_max_iters 10"
 HOM_SETTINGS="hom_corner_based_sampling 1 hom_normalized_init 1"
 FC_SETTINGS="sec_ord_hess 0 fc_chained_warp 1 fc_hess_type 1 leven_marq 1 lm_delta_init 0.01 lm_delta_update 10 fc_write_ssm_updates 0 fc_show_grid 0 fc_show_patch 0 fc_patch_resize_factor 4 enable_learning 0 fc_debug_mode 0"

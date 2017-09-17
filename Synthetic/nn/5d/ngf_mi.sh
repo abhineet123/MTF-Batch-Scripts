@@ -1,0 +1,3 @@
+#!/bin/bash -v
+bashl nnkmn2k5ds74s75s76s77s78_mi24b_50r_30i_4u_reset_to_init_syn_chom_s19_28_rbf_s9_noise_0_10.sh
+bashl nnkmn2k5ds74s75s76s77s78_ngf_50r_30i_4u_reset_to_init_syn_chom_s19_28_rbf_s9_noise_0_10.sh

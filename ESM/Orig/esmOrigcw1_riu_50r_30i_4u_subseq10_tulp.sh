@@ -2,9 +2,9 @@
 # IC with SSD with 25r and SubSeq 5
 set -x
 DB_ROOT_PATH="/home/abhineet/Secondary/Datasets/"
-SETTINGS="mtf_sm esm mtf_ssm 8 mtf_res 50 mtf_ilm 0 res_from_size 0 enable_nt 1 max_iters 30 epsilon 1e-4 db_root_path $DB_ROOT_PATH write_tracking_data 1  overwrite_gt 0 show_tracking_error 1 tracking_err_type 0 reinit_with_new_obj 0 reinit_at_each_frame 0 reinit_gt_from_bin 1 reinit_frame_skip 5 reinit_err_thresh 20 use_opt_gt 0 pause_after_frame 0 show_cv_window 0 init_frame_id 0 start_frame_id 0 frame_gap 1 read_obj_from_gt 1 invalid_state_check 1 invalid_state_err_thresh 0 img_resize_factor 1"
+SETTINGS="mtf_sm esm mtf_ssm 8 mtf_res 50 mtf_ilm 0 res_from_size 0 enable_nt 1 max_iters 30 epsilon 1e-4 db_root_path $DB_ROOT_PATH write_tracking_data 1 pre_proc_type 1  overwrite_gt 0 show_tracking_error 1 tracking_err_type 0 reinit_with_new_obj 0 reinit_at_each_frame 0 reinit_gt_from_bin 1 reinit_frame_skip 5 reinit_err_thresh 20 use_opt_gt 0 pause_after_frame 0 show_cv_window 0 init_frame_id 0 start_frame_id 0 frame_gap 1 read_obj_from_gt 1 invalid_state_check 1 invalid_state_err_thresh 0 img_resize_factor 1"
 PYR_SETTINGS="pyr_no_of_levels 3 pyr_scale_factor 0.5 pyr_scale_res 1 pyr_show_levels 0"
-ESM_SETTINGS="sec_ord_hess 0 esm_jac_type 0 esm_hess_type 0 esm_chained_warp 1"
+ESM_SETTINGS="sec_ord_hess 0 esm_jac_type 0 esm_hess_type 0 esm_chained_warp 1 enable_learning 0"
 RIU_SETTINGS="riu_likelihood_alpha 50"
 HOM_SETTINGS="hom_corner_based_sampling 1 hom_normalized_init 1"
 ACTORS=(TMT UCSB LinTrack PAMI LinTrackShort METAIO CMT VOT VOT16 VTB VIVID TrakMark TMT_FINE)

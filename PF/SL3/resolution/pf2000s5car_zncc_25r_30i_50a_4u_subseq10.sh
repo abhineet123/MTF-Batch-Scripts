@@ -2,7 +2,7 @@
 # IC with SSD with 25r and SubSeq 5
 set -x
 DB_ROOT_PATH="/home/abhineet/Secondary/Datasets/"
-SETTINGS="mtf_sm pf mtf_ssm sl3 mtf_res 25 mtf_ilm 0 res_from_size 0 enable_nt 0 max_iters 30 epsilon 1e-4 db_root_path $DB_ROOT_PATH write_tracking_data 1  likelihood_alpha 50 dist_from_likelihood 0 overwrite_gt 0 show_tracking_error 1 tracking_err_type 0 reinit_with_new_obj 0 reinit_at_each_frame 0 reinit_gt_from_bin 1 reinit_frame_skip 5 reinit_err_thresh 20 use_opt_gt 0 pause_after_frame 0 show_cv_window 0 init_frame_id 0 start_frame_id 0 frame_gap 1 read_obj_from_gt 1 invalid_state_check 1 invalid_state_err_thresh 0 img_resize_factor 1"
+SETTINGS="mtf_sm pf mtf_ssm sl3 mtf_res 25 mtf_ilm 0 res_from_size 0 enable_nt 0 max_iters 30 epsilon 1e-4 db_root_path $DB_ROOT_PATH write_tracking_data 1 pre_proc_type 1  likelihood_alpha 50 dist_from_likelihood 0 overwrite_gt 0 show_tracking_error 1 tracking_err_type 0 reinit_with_new_obj 0 reinit_at_each_frame 0 reinit_gt_from_bin 1 reinit_frame_skip 5 reinit_err_thresh 20 use_opt_gt 0 pause_after_frame 0 show_cv_window 0 init_frame_id 0 start_frame_id 0 frame_gap 1 read_obj_from_gt 1 invalid_state_check 1 invalid_state_err_thresh 0 img_resize_factor 1"
 PF_SETTINGS="pf_n_particles 2000 pf_max_iters 1 pf_dynamic_model 1 pf_update_type 1 pf_likelihood_func 0 pf_resampling_type 1 pf_reset_to_mean 0 pf_mean_type 0 pf_ssm_sigma_ids 5 pf_ssm_mean_ids -1 pf_update_distr_wts 0 pf_min_distr_wt 0.1 pf_pix_sigma 0 pf_measurement_sigma 0.1 pf_show_particles 0 pf_update_template 0 pf_jacobian_as_sigma 0 enable_learning 0 pf_debug_mode 0"
 SL3_SETTINGS="sl3_normalized_init 1 sl3_iterative_sample_mean 1 sl3_sample_mean_max_iters 10 sl3_sample_mean_eps 1e-4 sl3_debug_mode 0"
 ZNCC_SETTINGS="likelihood_alpha 50"

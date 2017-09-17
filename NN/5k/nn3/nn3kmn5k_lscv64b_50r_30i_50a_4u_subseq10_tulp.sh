@@ -2,8 +2,8 @@
 # IC with SSD with 25r and SubSeq 5
 set -x
 DB_ROOT_PATH="/home/abhineet/Secondary/Datasets/"
-SETTINGS="mtf_sm nnk mtf_am lscv mtf_ssm 8 mtf_res 50 mtf_ilm 0 res_from_size 0 enable_nt 0 max_iters 30 epsilon 1e-4 db_root_path $DB_ROOT_PATH write_tracking_data 1  overwrite_gt 0 show_tracking_error 1 tracking_err_type 0 reinit_with_new_obj 0 reinit_at_each_frame 0 reinit_gt_from_bin 1 reinit_frame_skip 5 reinit_err_thresh 20 use_opt_gt 0 pause_after_frame 0 show_cv_window 0 init_frame_id 0 start_frame_id 0 frame_gap 1 read_obj_from_gt 1 invalid_state_check 1 invalid_state_err_thresh 0 img_resize_factor 1"
-NN_SETTINGS="nn_n_samples 5000 nn_index_type 2 nn_load_index 0 nn_save_index 0 nn_search_type 0 nn_max_iters 1 nn_ssm_sigma_ids 2 nn_ssm_mean_ids 0 nn_pix_sigma 0 nn_n_checks 50 nn_additive_update 0 nn_show_samples 0 nn_add_points 0 nn_remove_points 0"
+SETTINGS="mtf_sm nnk mtf_am lscv mtf_ssm 8 mtf_res 50 mtf_ilm 0 res_from_size 0 enable_nt 0 max_iters 30 epsilon 1e-4 db_root_path $DB_ROOT_PATH write_tracking_data 1 pre_proc_type 1  overwrite_gt 0 show_tracking_error 1 tracking_err_type 0 reinit_with_new_obj 0 reinit_at_each_frame 0 reinit_gt_from_bin 1 reinit_frame_skip 5 reinit_err_thresh 20 use_opt_gt 0 pause_after_frame 0 show_cv_window 0 init_frame_id 0 start_frame_id 0 frame_gap 1 read_obj_from_gt 1 invalid_state_check 1 invalid_state_err_thresh 0 img_resize_factor 1"
+NN_SETTINGS="nn_n_samples 5000 nn_index_type 2 nn_load_index 0 nn_save_index 0 nn_search_type 0 nn_max_iters 1 nn_ssm_sigma_ids 2 nn_ssm_mean_ids 0 nn_pix_sigma 0 nn_n_checks 50 nn_additive_update 0 nn_show_samples 0 nn_add_samples_gap 0 nn_remove_points 0"
 NNK_SETTINGS="nnk_n_layers 3 nnk_ssm_sigma_ids 0 nnk_ssm_sigma_ids 1 nnk_ssm_sigma_ids 2"
 SCV_SETTINGS="scv_use_bspl 0 scv_n_bins 64 scv_preseed 0 scv_pou 1 scv_weighted_mapping 0 scv_mapped_gradient 0 scv_affine_mapping 0 scv_once_per_frame 0 scv_approx_dist_feat 0"
 LSCV_SETTINGS="lscv_sub_regions 3 lscv_spacing 10 lscv_show_subregions 0"

@@ -1,0 +1,4 @@
+#!/bin/bash -v
+bashl fa_ssd_50r_30i_4u_2_iiw0_subseq10_tulp.sh
+bashl fa_zncc_50r_30i_4u_2_iiw0_subseq10_tulp.sh
+bashl fa_mi8b_50r_30i_4u_2_iiw0_subseq10_tulp.sh
